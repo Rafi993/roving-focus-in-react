@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: "Sans serif";
+}
+
+ul {
+  list-style: none;
+  max-height: 200px;
+  overflow: auto;
+  width: 240px;
+  padding: 0;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+ul > li:focus {
+  outline: none;
+  background: rgba(232, 240, 248, 0.5);
+}
+
+li {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+/*# sourceMappingURL=/dropdown.e31bb0bc.css.map */
