@@ -5,6 +5,7 @@ const Item = ({ character, focus, index, setFocus }) => {
 
   useEffect(() => {
     if (focus) {
+      // Move element into view when it is focused
       ref.current.focus();
     }
   }, [focus]);

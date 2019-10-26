@@ -8,19 +8,17 @@ const List = () => {
   const [focus, setFocus] = useRoveFocus(characters.length);
 
   return (
-    <>
-      <ul>
-        {characters.map((character, index) => (
-          <Item
-            key={character}
-            setFocus={setFocus}
-            index={index}
-            focus={focus === index}
-            character={character}
-          />
-        ))}
-      </ul>
-    </>
+    <ul>
+      {characters.map((character, index) => (
+        <Item
+          key={character}
+          setFocus={setFocus}
+          index={index}
+          focus={focus === index}
+          character={character}
+        />
+      ))}
+    </ul>
   );
 };
 
