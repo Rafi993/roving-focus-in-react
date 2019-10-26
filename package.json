@@ -1,10 +1,11 @@
 {
-  "name": "scrollable-list",
+  "name": "roving-index-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
